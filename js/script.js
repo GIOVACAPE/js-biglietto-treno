@@ -32,6 +32,14 @@ else {
         console.log('finalPrice', finalPrice, typeof finalPrice, isNan(finalPrice));
     }
 
+    else if (age > 65) {
+        const Discount = basePrice / 100 * 40; // sconto del 40%
+        const finalPrice = basePrice - Discount; // Prezzo finale scontato
+        console.log('Discount', Discount, typeof Discount, isNan(Discount));
+        console.log('finalPrice', finalPrice, typeof finalPrice, isNan(finalPrice));
+
+    }
+
 }
     
 
